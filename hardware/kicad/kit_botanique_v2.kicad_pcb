@@ -7296,7 +7296,7 @@
 			(uuid "4d1f3faa-d533-45ee-ad3f-1a4a54929fb1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Neosid_SM-PIC0512H.wrl"
+		(model "${KIPRJMOD}/lib/kit_botanique.3dshapes/L_Chilisin_BMRx00050512-B.step"
 			(offset
 				(xyz 0 0 0)
 			)

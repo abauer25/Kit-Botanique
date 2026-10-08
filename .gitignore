@@ -1,5 +1,6 @@
 # Sauvegardes et fichiers locaux KiCad
 *-backups/
+.history/
 fp-info-cache
 *.kicad_prl
 *.lck
