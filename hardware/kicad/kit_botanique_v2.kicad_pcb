@@ -45,15 +45,15 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
+			(hpglpendiameter 15)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -1445,7 +1445,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/47c8e209-8923-4d5a-bf2e-719500a64f45")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -1835,7 +1835,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/4df1b420-7670-4146-9afa-7af75b4a4e30")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1940,7 +1940,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/59064dad-9790-4716-9c8b-55aa49917a00")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.36 -2.11)
@@ -4455,7 +4455,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/69d0ee32-80b7-499a-ba61-118ce6444e65")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 0.96)
@@ -6036,7 +6036,7 @@
 		)
 		(path "/bb2a1efc-4e1b-40af-8f43-13a770ab31ad")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -9.2 -6.525)
@@ -8214,7 +8214,7 @@
 		(property ki_fp_filters "SW*MEC*5G*")
 		(path "/0fc4fba0-e936-44f7-965b-d7cf8d5a4118")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.25 1.75)
@@ -8561,7 +8561,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dce1ddec-74d4-4dce-bf87-a1798a9ba61b")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.36 -2.11)
@@ -9616,7 +9616,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/bb97d632-5635-43f4-9544-31eded9bf511")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.7 3.9)
@@ -10060,7 +10060,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cb992837-122c-4c3b-8a49-13e9c9662341")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -10194,7 +10194,7 @@
 		(property ki_fp_filters "SW*MEC*5G*")
 		(path "/c398bba9-732d-4e8e-a941-bdc8fdc73d9d")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.25 -1.75)
@@ -11218,7 +11218,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/be0653ec-3026-47eb-8bce-95a98e25375a")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.36 -2.11)
@@ -12813,7 +12813,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6eec942f-29ef-4ddc-8eac-f4aff7de8134")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -13509,7 +13509,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1287e4a3-d295-42b3-8aec-f29c49065591")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -13741,7 +13741,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e625813f-3202-41a4-8a68-5bf6993da6f6")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -13973,7 +13973,7 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/ddc7ee19-50d8-4f84-afb0-17a044e2100e")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 -0.96)
@@ -15939,7 +15939,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/47e41af1-5952-4609-88e9-db537f1efbf4")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -17121,7 +17121,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/055bd08f-5039-4274-a844-ce4dde5747ec")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -19927,7 +19927,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/39cab298-606c-43e4-9dca-9e4e8579a71f")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -22226,7 +22226,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e4e2c02-a43e-4694-a5c9-cef2de314cc4")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -22458,7 +22458,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a67c28fb-22e3-4c9e-bd88-25c37f1d6603")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -22690,7 +22690,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a49fb381-f5e1-497e-a0bc-3eb6495d7e27")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -22922,7 +22922,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/efd782ca-2343-4c49-99df-f405bc3fe54e")
 		(sheetname "/")
-		(sheetfile "new version.kicad_sch")
+		(sheetfile "kit_botanique_v2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
