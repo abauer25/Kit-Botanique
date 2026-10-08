@@ -1,5 +1,5 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "New_Library") (type "KiCad") (uri "${KIPRJMOD}/lib/kit_botanique.kicad_sym") (options "") (descr "Symboles du projet"))
-	(lib (name "eurocircuits") (type "KiCad") (uri "${KIPRJMOD}/lib/eurocircuits.kicad_sym") (options "") (descr "Symbole du logo Eurocircuits"))
+	(lib (name "New_Library") (type "KiCad") (uri "${KIPRJMOD}/lib/kit_botanique.kicad_sym") (options "") (descr "Project symbols"))
+	(lib (name "eurocircuits") (type "KiCad") (uri "${KIPRJMOD}/lib/eurocircuits.kicad_sym") (options "") (descr "Eurocircuits logo symbol"))
 )

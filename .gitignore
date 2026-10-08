@@ -1,4 +1,4 @@
-# Sauvegardes et fichiers locaux KiCad
+# KiCad backups and local files
 *-backups/
 .history/
 fp-info-cache
@@ -7,6 +7,6 @@ fp-info-cache
 _autosave-*
 \#auto_saved_files\#
 
-# Fichiers système
+# OS files
 Thumbs.db
 .DS_Store

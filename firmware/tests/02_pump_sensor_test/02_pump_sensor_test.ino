@@ -1,53 +1,53 @@
-int capteurs[] = {1, 2, 3, 4};      // capteurs humidité
-int pompes[]   = {17, 18, 21};      // pompes
+int sensors[] = {1, 2, 3, 4};      // moisture sensors
+int pumps[]   = {17, 18, 21};      // pumps
 
-int nbCapteurs = 4;
-int nbPompes = 3;
+int nbSensors = 4;
+int nbPumps = 3;
 
 void setup() {
   Serial.begin(115200);
 
-  // Config capteurs (entrée)
-  for (int i = 0; i < nbCapteurs; i++) {
-    pinMode(capteurs[i], INPUT);
+  // Sensor setup (input)
+  for (int i = 0; i < nbSensors; i++) {
+    pinMode(sensors[i], INPUT);
   }
 
-  // Config pompes (sortie)
-  for (int i = 0; i < nbPompes; i++) {
-    pinMode(pompes[i], OUTPUT);
-    digitalWrite(pompes[i], LOW); // pompes éteintes au début
+  // Pump setup (output)
+  for (int i = 0; i < nbPumps; i++) {
+    pinMode(pumps[i], OUTPUT);
+    digitalWrite(pumps[i], LOW); // pumps off at startup
   }
 }
 
 void loop() {
-  Serial.println("---- Lecture capteurs ----");
+  Serial.println("---- Reading sensors ----");
 
-  // Lire capteurs
-  for (int i = 0; i < nbCapteurs; i++) {
-    int valeur = analogRead(capteurs[i]); // lecture analogique
-    Serial.print("Capteur ");
+  // Read sensors
+  for (int i = 0; i < nbSensors; i++) {
+    int value = analogRead(sensors[i]); // analog reading
+    Serial.print("Sensor ");
     Serial.print(i);
     Serial.print(" (GPIO ");
-    Serial.print(capteurs[i]);
+    Serial.print(sensors[i]);
     Serial.print(") = ");
-    Serial.println(valeur);
+    Serial.println(value);
   }
 
-  Serial.println("Pompes ON");
-  
-  // Allumer pompes
-  for (int i = 0; i < nbPompes; i++) {
-    digitalWrite(pompes[i], HIGH);
+  Serial.println("Pumps ON");
+
+  // Turn pumps on
+  for (int i = 0; i < nbPumps; i++) {
+    digitalWrite(pumps[i], HIGH);
   }
 
-  delay(3000); // 3 secondes ON
+  delay(3000); // 3 seconds ON
 
-  Serial.println("Pompes OFF");
+  Serial.println("Pumps OFF");
 
-  // Éteindre pompes
-  for (int i = 0; i < nbPompes; i++) {
-    digitalWrite(pompes[i], LOW);
+  // Turn pumps off
+  for (int i = 0; i < nbPumps; i++) {
+    digitalWrite(pumps[i], LOW);
   }
 
-  delay(3000); // 3 secondes OFF
+  delay(3000); // 3 seconds OFF
 }

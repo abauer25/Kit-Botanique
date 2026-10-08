@@ -1,7 +1,7 @@
-# Normalisation des fins de ligne pour les fichiers texte
+# Normalize line endings of text files
 * text=auto
 
-# Fichiers binaires
+# Binary files
 *.zip binary
 *.pdf binary
 *.png binary

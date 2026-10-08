@@ -1,6 +1,6 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/lib/kit_botanique.pretty") (options "") (descr "Empreintes du projet"))
-	(lib (name "logos") (type "KiCad") (uri "${KIPRJMOD}/lib/logos.pretty") (options "") (descr "Logos Robopoly et Eurocircuits"))
-	(lib (name "new version") (type "KiCad") (uri "${KIPRJMOD}/lib/logos.pretty") (options "") (descr "Ancien surnom, conservé car le PCB référence new version:robopoly_logo"))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/lib/kit_botanique.pretty") (options "") (descr "Project footprints"))
+	(lib (name "logos") (type "KiCad") (uri "${KIPRJMOD}/lib/logos.pretty") (options "") (descr "Robopoly and Eurocircuits logos"))
+	(lib (name "new version") (type "KiCad") (uri "${KIPRJMOD}/lib/logos.pretty") (options "") (descr "Legacy nickname, kept because the PCB references new version:robopoly_logo"))
 )
